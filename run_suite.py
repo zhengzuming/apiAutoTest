@@ -16,3 +16,4 @@ report_path = BASE_DIR+"/report/ihrt.html"
 with open(report_path,mode='wb') as f:
     runner = HTMLTestRunner(f,verbosity=2,title="ihtl登录接口测试",description="生成报告，更美观")
     runner.run(suite)
+print("Hello World")
