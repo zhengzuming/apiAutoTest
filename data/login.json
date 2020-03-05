@@ -1,0 +1,11 @@
+[
+  {"login":{"mobile":"13800000002","password":"123456"},"http_code":200,"success":true,"code":10000,"message":"操作成功"},
+  {"login":{"mobile":"138000002","password":"123456"},"http_code":200,"success":false,"code":20001,"message":"用户名或密码错误"},
+  {"login":{"mobile":"13800000002","password":"126456"},"http_code":200,"success":false,"code":20001,"message":"用户名或密码错误"},
+  {"login":{},"http_code":200,"success":false,"code":20001,"message":"用户名或密码错误"},
+  {"login":{"mobile":"","password":"126456"},"http_code":200,"success":false,"code":20001,"message":"用户名或密码错误"},
+  {"login":{"password":"123456"},"http_code":200,"success":false,"code":20001,"message":"用户名或密码错误"},
+  {"login":{"mobile":"13800000002"},"http_code":200,"success":false,"code":20001,"message":"用户名或密码错误"},
+  {"login":{"mobile":"13800000002","password":"123456","lore":"sfdsdf"},"http_code":200,"success":true,"code":10000,"message":"操作成功"},
+  {"login":{"mobile":"13800000002","passord":"123456"},"http_code":200,"success":false,"code":20001,"message":"用户名或密码错误"}
+]

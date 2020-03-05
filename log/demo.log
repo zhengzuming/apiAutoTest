@@ -1,0 +1,9 @@
+2020-03-05 10:11:58,865 INFO [root][__init__.py(<module>:11)] -测试日志是否能够正常打印2！
+2020-03-05 10:11:59,641 INFO [root][emp_params.py(test01_login_success:32)] -员工模块的登录结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '2de3029c-8886-47b8-a8c5-508c064d7c40'}
+2020-03-05 10:11:59,641 INFO [root][emp_params.py(test01_login_success:34)] -取出的令牌为：Bearer 2de3029c-8886-47b8-a8c5-508c064d7c40
+2020-03-05 10:11:59,641 INFO [root][emp_params.py(test01_login_success:37)] -员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 2de3029c-8886-47b8-a8c5-508c064d7c40'}
+2020-03-05 10:11:59,897 INFO [root][emp_params.py(test02_add_emp:42)] -添加员工后的接口结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235387522326286336'}}
+2020-03-05 10:12:00,103 INFO [root][emp_params.py(test03_query_emp:50)] -查询搜索员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235387522326286336', 'mobile': '19805567432', 'username': '雪山银燕htsa', 'password': 'f6bb595046b0bc9d700af59fdd6ce1fa', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': '2020-03-02T00:00:00.000+0000', 'formOfEmployment': None, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2020-03-05 10:12:00,296 INFO [root][emp_params.py(test04_modify_emp:56)] -查询修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235387522326286336'}}
+2020-03-05 10:12:00,777 INFO [root][emp_params.py(test04_modify_emp:62)] -sql查询结果为：('俏如来',)
+2020-03-05 10:12:00,973 INFO [root][emp_params.py(test05_delete_emp:72)] -查询删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
